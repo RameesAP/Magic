@@ -8,6 +8,9 @@ import Explore from '../components/Explore/explore.jsx'
 import Advice from '../components/Advice/Advice'
 import Guid from '../components/Guid/Guid'
 import SnapShot from '../components/SnapShot/SnapShot'
+import Options from '../components/Options/Options'
+import New from '../components/New/New'
+import Footer from '../components/Footer/Footer'
 
 
 
@@ -23,6 +26,9 @@ const Home = () => {
         <Advice />
         <Guid />
         <SnapShot />
+        <Options />
+        <New />
+        <Footer />
     </div>
   )
 }

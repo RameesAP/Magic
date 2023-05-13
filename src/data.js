@@ -1,7 +1,7 @@
 import { MdHomeWork } from "react-icons/md"
-import {RiFileList3Line} from 'react-icons/ri'
-import {AiOutlineAreaChart} from 'react-icons/ai'
-import {BsFillCalculatorFill} from 'react-icons/bs'
+import { RiFileList3Line } from 'react-icons/ri'
+import { AiOutlineAreaChart } from 'react-icons/ai'
+import { BsFillCalculatorFill } from 'react-icons/bs'
 
 export const PropertyData = [
     {
@@ -116,16 +116,67 @@ export const Advicedata = [
     {
         icon: <RiFileList3Line style={{ width: "50px", height: "50px" }} />,
         title: "Legal Title Check",
-        description: "Get property checked for clean title and no legal claim/bank attachment" 
+        description: "Get property checked for clean title and no legal claim/bank attachment"
     },
     {
         icon: <AiOutlineAreaChart style={{ width: "50px", height: "50px" }} />,
         title: "Rate & Trend",
-        description: "Know all about property Rates & Trends in your city" 
+        description: "Know all about property Rates & Trends in your city"
     },
-        {
+    {
         icon: <BsFillCalculatorFill style={{ width: "50px", height: "50px" }} />,
         title: "EMI Calculator",
-        description: "Know the right valuation for your propertKnow how much you'll have to pay every month on your loan" 
+        description: "Know the right valuation for your propertKnow how much you'll have to pay every month on your loan"
     },
 ]
+
+
+export const options = [
+    {
+        title: 'Buy', cat: "Popular Residential Searches",
+        items: ['Property for Sale in New Delhi', 'Flats in New Delhi', 'Apartments in New Delhi', "Studio Apartments in New Delhi", "Resale House in New Delhi", "Flats in Delhi NCR", "Property in Delhi NCR"]
+    },
+    { title: 'Rent', cat: "Popular BHK Searches", items: ['Property for Sale in New Delhi', 'Flats in New Delhi', 'Apartments in New Delhi', "Studio Apartments in New Delhi", "Resale House in New Delhi", "Flats in Delhi NCR", "Property in Delhi NCR"] },
+    { cat: "Popular Flat Searches", items: ['Property for Sale in New Delhi', 'Flats in New Delhi', 'Apartments in New Delhi', "Studio Apartments in New Delhi", "Resale House in New Delhi", "Flats in Delhi NCR", "Property in Delhi NCR"] },
+    { cat: "Popular House Searches", items: ['Property for Sale in New Delhi', 'Flats in New Delhi', 'Apartments in New Delhi', "Studio Apartments in New Delhi", "Resale House in New Delhi", "Flats in Delhi NCR", "Property in Delhi NCR"] },
+    // Add more options as needed
+];
+
+
+export const NewData = [
+    { title: 'West Enclave', cat: ["Vidya Vihar","Triveni Apartment",,"Vikas Apartment"] },
+    { title: 'Indraprastha Extension', cat: "Popular Residential Searches" },
+    { title: 'Rajendra Nagar',  cat: "Popular Residential Searches" },
+    { title: 'Vikaspuri', cat: "Popular Residential Searches" },
+    { title: 'Dwarka Sector 12', cat: "Popular Residential Searches" },
+    { title: 'Dwarka Sector 22', cat: "Popular Residential Searches" },
+
+];
+
+
+{/* <Tabs
+id="controlled-tab-example"
+activeKey={key}
+onSelect={(k) => setKey(k)}
+className="mb-3"
+>
+
+{NewData.map((option, index) => (
+    <Tab key={index} className='NewTab' eventKey={option.title} title={option.title}>
+        <div className="Newborder">
+            <div className="NewGroup">
+                {NewData.map((option, index) => (
+                   
+                        <div className="NewOp" key={index}>
+                            <div className="Odata"> {option.items}</div>
+
+                        </div>
+                    
+                ))}
+            </div>
+        </div>
+    </Tab>
+))}
+
+
+</Tabs> */}

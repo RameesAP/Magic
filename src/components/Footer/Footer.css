@@ -1,0 +1,8 @@
+.FooterContiners{
+    border: 1px solid rgb(0, 255, 42);
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
