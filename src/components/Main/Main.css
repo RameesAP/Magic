@@ -1,0 +1,127 @@
+.MainConainer {
+    width: 100%;
+    height: 250px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.MainContent {
+    border: 1px solid rgb(0, 174, 255);
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mineMenus{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(17, 0, 255);
+    margin-right: 50px;
+
+}
+
+.mainHeader {
+    border: 1px solid rgb(219, 42, 42);
+    margin-right: 250px;
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+.mainUls{
+    border: 1px solid rgb(23, 185, 45);
+   margin-left: 100px;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+.mainul{
+    border: 1px solid rgb(255, 0, 200);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    
+    
+}
+.mainInput{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px 20px 20px 20px;
+    width: 700px;
+    height: 50px;
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.finput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2px;
+    
+}
+.finput>input{
+    border-radius: 20px 20px 20px 20px;
+    width: 390px;
+    border: none;
+}
+.MainButton{
+    background-color: red;
+    margin-left: 25px;
+    
+    color: white;
+    width: 100px;
+    border-radius: 20px 20px 20px 20px;
+}
+.dropbtnM {
+    background-color: transparent;
+    color: rgb(80, 80, 80);
+    padding: 16px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .dropdownM {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdownM-content {
+    display: none;
+    position: absolute;
+    background-color: #c4c4c4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdownM-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdownM-content a:hover {background-color: #beb7b7;}
+  
+  .dropdownM:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtnM {background-color: rgb(255, 255, 255); color: #363030;}
+
+.carosil {
+    border: 1px solid rgb(180, 57, 57);
+    width: 280px;
+    height: 190px;
+}

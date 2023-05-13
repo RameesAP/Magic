@@ -1,0 +1,167 @@
+.GuidContainer {
+    width: 100%;
+    height: 400px;
+    border: 1px solid red;
+}
+
+.GuideHeading {
+    width: 100%;
+    height: 50px;
+    border: 1px solid red;
+
+}
+
+.GuideHeading>h3 {
+    font-weight: 400;
+}
+
+.GBox {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.SBox {
+    width: 400px;
+    height: 270px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(208, 211, 210);
+
+}
+
+
+
+.FvideoBox {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.GSaprate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 190px;
+    height: 170px;
+    background-color: rgb(228, 233, 162);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.Videotemp {
+    height: 110px;
+    width: 190px;
+}
+
+.SBox>h3 {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: red;
+}
+
+.lisitems {
+    height: 180px;
+    width: 100%;
+}
+
+.Glists {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.Gicon {
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+.GTest {
+    width: 350px;
+}
+
+.GvideoBox {
+    width: 100%;
+    height: 180px;
+    padding: 10px;
+    gap: 1rem;
+}
+
+.SingleBox {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: rgb(228, 233, 162);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.imagebox {
+    width: 90px;
+    height: 80px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.Gdiscrip {
+    width: 290px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Gdiscrip>p {
+    font-size: 14px;
+
+}
+
+.Gdiscrip>h4 {
+    font-size: 14px;
+    color: red;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.GExplore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.GExplore>h3 {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: red;
+}
+
+.GExplore>h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 10px;
+}

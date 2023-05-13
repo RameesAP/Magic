@@ -1,0 +1,98 @@
+.Econtsiner {
+    width: 100%;
+    height: 280px;
+    border: 1px solid red;
+    display: flex;
+    
+}
+
+.Ecard {
+    width: 300px;
+    height: 250px;
+    border: 1px solid red;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px 20px 20px 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(170, 248, 248);
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.Etext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.Etext>h3{
+    margin-top: 20px;
+}
+.carolCard{
+    width: 300px;
+    height: 250px;
+    border: 1px solid rgb(247, 134, 5);
+    margin-left: 20px;
+    margin-top: 20PX;
+    border-radius: 20px 20px 20px 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+.blueblock{
+    height: 50px;
+    width: 260px;
+    background-color: rgb(170, 248, 248);
+    border: 1px solid rgb(0, 230, 247);
+    display: flex;
+    align-items: end;
+    margin-top: 65px;
+    padding: 20px;
+     border-radius: 10px 10px 10px 10px;
+     justify-content: center;
+     
+    
+    
+}
+.ss{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  border: 1px solid rgb(30, 255, 0);
+  justify-content: center;
+}
+.hy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    border: 1px solid rgb(0, 68, 255);
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.ff{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(210, 210, 253);
+ 
+  
+}
+.Ecen{
+  border: 1px solid rgb(0, 68, 255);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}

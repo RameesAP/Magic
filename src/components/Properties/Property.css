@@ -1,0 +1,91 @@
+.PContainer{
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid red;
+
+    
+}
+.ProHeding{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    border: 1px solid rgb(28, 43, 177);
+    justify-content: center;
+}
+.ProHeding>h3{
+    font-weight: 400;
+}
+.Pcards{
+    
+    border: 1px solid rgb(8, 255, 119);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imggs{
+    width: 290px;
+    height: 200px;
+    border-radius: 20px 20px 20px 20px;
+}
+.Icontainer {
+    border: 1px solid red;
+    width: 290px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: relative;
+    text-align: center;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    font-weight: 500;
+  }
+  .bottom-Name{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .bottom-Number{
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+    font-weight: 500;
+    font-size: 40px;
+  }
+
+
+.bg-image {
+    background-image: url('https://images.pexels.com/photos/15264333/pexels-photo-15264333.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    width: 290px;
+    height: 200px;
+    object-fit: contain;
+
+    /* Add any additional styles for the background container */
+  }
+  
+  .hover-zoom {
+    transition: transform 0.3s;
+  }
+  
+  .hover-zoom:hover {
+    transform: scale(1.1);
+  }
+
+  
