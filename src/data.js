@@ -77,29 +77,29 @@ export const Explorecarosil = [
         imgSrc: "https://images.pexels.com/photos/463734/pexels-photo-463734.jpeg?auto=compress&cs=tinysrgb&w=400",
         title: "Dwarka",
         price: "900",
-        count: "50c0",
-        pro: "654"
+        count: "120",
+        pro: "5784"
     },
     {
         imgSrc: "https://images.pexels.com/photos/259593/pexels-photo-259593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        title: "FFF",
-        price: "8000",
-        count: "50d0",
-        pro: "654"
+        title: "Uttam Nagar",
+        price: "11000",
+        count: "180",
+        pro: "2071"
     },
     {
         imgSrc: "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        title: "GGG",
-        price: "7000",
-        count: "50s0",
-        pro: "654"
+        title: "Rohni",
+        price: "4000",
+        count: "20",
+        pro: "4266"
     },
     {
         imgSrc: "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        title: "GGG",
+        title: "Bangalore",
         price: "7000",
-        count: "50s0",
-        pro: "654"
+        count: "80",
+        pro: "202"
     },
 
 
