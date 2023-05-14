@@ -62,14 +62,7 @@ const Explore = () => {
   return (
     <div className='Econtsiner'>
       <div className="Ecen">
-        {/* <div className="Ecard">
 
-          <div className='Etext'>
-            <h2><i>Explore</i></h2>
-            <h3>Popular Localities In New Delhi</h3>
-          </div>
-
-        </div> */}
         <div className="carolCard">
           <ServicesCarousel />
         </div>
