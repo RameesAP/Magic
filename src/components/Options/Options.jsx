@@ -11,7 +11,7 @@ const Options = () => {
     return (
         <div className='OptionsContainer'>
             <div className="OptionHeding">
-                <h4>Property Options in New-Delhi</h4>
+                <h3>Property Options in New-Delhi</h3>
             </div>
             <div className="OptionsBox">
                 <Tabs

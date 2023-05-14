@@ -13,7 +13,7 @@ const New = () => {
     return (
         <div className='NewCont'>
             <div className="NContainer">
-                <h4>New Projects in New Delhi</h4>
+                <h3>New Projects in New Delhi</h3>
             </div>
             <div className="NewItembox">
                 <Tabs

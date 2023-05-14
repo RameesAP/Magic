@@ -19,7 +19,7 @@ const Services = () => {
               <Row >
                 <Card >
                   <Card.Img variant="top" src={card.img} style={{ width: "290px", height: "110px", objectFit: "cover" }} />
-                  <Card.Body style={{ width: "300px", height: "100px" }}>
+                  <Card.Body className='CArdbody' style={{ width: "300px", height: "100px" }}>
                     <Card.Title style={{ color: "black" }}>{card.title}</Card.Title>
                     <Card.Text style={{ color: "black" }}>{card.sub}</Card.Text>
                   </Card.Body>

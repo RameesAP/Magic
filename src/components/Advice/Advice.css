@@ -1,26 +1,23 @@
 .AContainer{
     width: 100%;
     height: 320px;
-    border: 1px solid red;
 }
 .Aheader{
     width: 100%;
     display: flex;
     justify-content:center;
     padding-left: 20px;
-    border: 1px solid rgb(0, 255, 0);
 }
 .Aheader>h3{
     font-weight: 400;
 }
 .AboxContainer{
-    border: 1px solid rgb(255, 94, 0);
     width: 100%;
     display: flex;
     justify-content: center;
 }
 .boxData{
-     border: 1px solid rgb(255, 94, 0);
+     border: 1px solid rgb(255, 255, 255);
      height: 230px;
      width: 300px;
      background-color: antiquewhite;

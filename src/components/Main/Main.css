@@ -3,7 +3,6 @@
     height: 250px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,7 +10,6 @@
 }
 
 .MainContent {
-    border: 1px solid rgb(0, 174, 255);
     margin-top: 40px;
     margin-bottom: 10px;
     display: flex;
@@ -21,26 +19,22 @@
 .mineMenus{
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(17, 0, 255);
     margin-right: 50px;
 
 }
 
 .mainHeader {
-    border: 1px solid rgb(219, 42, 42);
     margin-right: 250px;
     display: flex;
     align-items: center;
     margin-left: 300px;
 }
 .mainUls{
-    border: 1px solid rgb(23, 185, 45);
    margin-left: 100px;
    padding: 10px;
    margin-bottom: 10px;
 }
 .mainul{
-    border: 1px solid rgb(255, 0, 200);
     list-style: none;
     display: flex;
     justify-content: center;
@@ -121,7 +115,6 @@
   .dropdown:hover .dropbtnM {background-color: rgb(255, 255, 255); color: #363030;}
 
 .carosil {
-    border: 1px solid rgb(180, 57, 57);
     width: 280px;
     height: 190px;
 }
